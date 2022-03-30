@@ -2,7 +2,6 @@ pipeline {
   triggers {
     cron ('H/5 * * * *')
   }
-  }
   agent {
     node {
       label 'nodejs'
